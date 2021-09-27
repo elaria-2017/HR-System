@@ -7,7 +7,7 @@
 =====================
 1- database
 -DbName : HRSysem
--Tables
+-Tables 
    -Employee
    -Department
    -Admins

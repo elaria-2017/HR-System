@@ -11,6 +11,7 @@ $insert="INSERT INTO `departments` VALUES (NULL,'$name')";
 $i=mysqli_query($conn,$insert);
 test($i,"insert to dept");
 }
+auth();
 
 ?>
 

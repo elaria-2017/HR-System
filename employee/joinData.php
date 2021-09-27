@@ -1,10 +1,12 @@
 <?php include '../shared/header.php'; ?>
 <?php include '../shared/nav.php'; ?>
 <?php include '../genral/configDatabase.php'; ?>
+<?php include '../genral/functions.php'; ?>
+
 <?php
 $select="SELECT emloyees.name emp,departments.name dep FROM `emloyees` JOIN departments on emloyees.deptID=departments.id";
 $s=mysqli_query($conn,$select);
-
+auth();
 ?>
 
 

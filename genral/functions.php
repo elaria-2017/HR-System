@@ -11,6 +11,15 @@ function test($t,$mess){
         </div>";
     }
 }
+function auth(){
+
+    if(isset($_SESSION['admin']) || isset($_SESSION['hr'])){
+
+    }
+    else{
+    header("location:/final/admin/login.php");
+    }
+}
 
 
 ?>
