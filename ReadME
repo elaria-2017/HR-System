@@ -1,0 +1,14 @@
+==== "HR System"
+
+1-build database
+2-build ui
+3-build server
+4-admins > access
+=====================
+1- database
+-DbName : HRSysem
+-Tables
+   -Employee
+   -Department
+   -Admins
+2- build ui
